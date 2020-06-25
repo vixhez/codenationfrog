@@ -1,0 +1,353 @@
+#index {
+    background-image: url(homefrog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#aboutme {
+    background-image: url(aboutmefrog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#unit1 {
+    background-image: url(unit1frog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#unit2 {
+    background-image: url(unit2frog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#unit3 {
+    background-image: url(unit3frog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact {
+    background-image: url(contactfrog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* #contact {
+background: url(contactfrog.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: Faster One, 'Trebuchet MS';
+    margin: 2px 2px 2px;
+    color: rgb(58, 255, 27);
+}
+
+p {
+    font-family: Stylish, Trebuchet MS;
+    text-align: justify;
+    color: rgb(62,68,63);
+    font-size: 18px;
+}
+
+a {
+    color: rgb(255, 0, 171);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(255, 0, 171);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu {
+    font-family: Stylish, Trebuchet MS;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    width: 25%;
+
+}
+
+.menu ul li > ul {
+    display: none;
+    flex-direction: column;
+}
+
+.menu ul li > ul li {
+    width: 100%;
+}
+
+.menu ul li:hover > ul {
+    display: flex;
+}
+
+.menu a {
+    display: block;
+    background: rgb(50, 175, 183, 0.8);
+    padding: 15px;
+    color: rgb(255, 0, 171);
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu a:hover {
+    background: rgb(58, 255, 27);
+    color: rgb(255, 0, 171);
+}
+
+.menu .dropdown li > a {
+    background: rgb(50, 175, 183, 0.8);
+    color: rgb(255, 0, 171)
+}
+
+.menu .dropdown li > a:hover {
+    background: rgb(58, 255, 27);
+    color: rgb(255, 0, 171);
+}
+
+.menu .dropdown > a:after {
+    content: '';
+    padding-left: 5px;
+}
+
+#homemenu {
+    font-family: Stylish, Trebuchet MS;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+}
+
+#homemenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#homemenu ul li {
+    width: 25%;
+
+}
+
+#homemenu ul li > ul {
+    display: none;
+    flex-direction: column;
+}
+
+#homemenu ul li > ul li {
+    width: 100%;
+}
+
+#homemenu ul li:hover > ul {
+    display: flex;
+}
+
+#homemenu a {
+    display: block;
+    background: rgb(50, 175, 183, 0.8);
+    padding: 15px;
+    color: rgb(255, 0, 171);
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+#homemenu a:hover {
+    background: rgb(58, 255, 27);
+    color: rgb(255, 0, 171);
+}
+
+#homemenu .dropdown li > a {
+    background: rgb(50, 175, 183, 0.8);
+    color: rgb(255, 0, 171)
+}
+
+#homemenu #homedropdown li > a:hover {
+    background: rgb(58, 255, 27);
+    color: rgb(255, 0, 171);
+}
+
+#homemenu #homedropdown > a:after {
+    content: '';
+    padding-left: 5px;
+}
+
+
+#homemenu {
+    font-family: Stylish, Trebuchet MS;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+}
+
+#homemenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#homemenu ul li {
+    width: 25%;
+
+}
+
+#homemenu ul li > ul {
+    display: none;
+    flex-direction: column;
+}
+
+#homemenu ul li > ul li {
+    width: 100%;
+}
+
+#homemenu ul li:hover > ul {
+    display: flex;
+}
+
+#homemenu a {
+    display: block;
+    background: rgb(50, 175, 183, 0.8);
+    padding: 15px;
+    color: rgb(255, 0, 171);
+    text-decoration: none;
+    text-align: center;
+}
+
+#homemenu a:hover {
+    background: rgb(58, 255, 27);
+    color: rgb(255, 0, 171);
+}
+
+#homemenu #homedropdown li > a {
+    background: rgb(50, 175, 183, 0.8);
+    color: rgb(255, 0, 171)
+}
+
+#homemenu #homedropdown li > a:hover {
+    background: rgb(58, 255, 27);
+    color: rgb(255, 0, 171);
+}
+
+#homemenu #homedropdown > a:after {
+    content: '';
+    padding-left: 5px;
+}
+
+
+
+#moi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:30%;
+    height:auto;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+    border: solid 10px;
+    border-color: rgb(255, 0, 171);
+    background-color: rgb(50, 175, 183, 0.6);
+    background-size: cover;
+    color:white
+}
+
+* {
+    margin: 0px 0px 0px 0px;
+}
+
+.speedy {
+    font-family: Faster One, Trebuchet MS;
+    text-align: right;
+    color: rgb(58, 255, 27);
+    font-size: 30px;
+}
+
+.stylish {
+    font-family: Stylish, Trebuchet MS;
+    font-size: 40px;
+    text-align: justify;
+    color: rgb(62,68,63); 
+}
+
+#unit1_1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#unit1_2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#unit1_3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#unit1_4 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#unit1_5 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#unit1_6 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#unit1_7 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+/* 
+.content {
+    background-image: "aboutmefrog.jpg";
+}
+
+#menu {
+    color: red
+} */
