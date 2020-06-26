@@ -12,14 +12,14 @@
     background-attachment: fixed;
 }
 
-#unit1 {
+#unit1-1 {
     background-image: url(unit1frog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-#unit2 {
+#unit1-2 {
     background-image: url(unit2frog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,8 +27,15 @@
 }
 
 
-#unit3 {
+#unit1-3 {
     background-image: url(unit3frog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#unit2-1 {
+    background-image: url(unit4frog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -39,6 +46,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#internetsurfer {
+    text-align: center;
+    font-size: 25px;
 }
 
 /* #contact {
@@ -60,7 +72,7 @@ h1 {
 p {
     font-family: Stylish, Trebuchet MS;
     text-align: justify;
-    color: rgb(62,68,63);
+    color: rgb(41,41,41);
     font-size: 18px;
 }
 
@@ -285,7 +297,6 @@ a:visited {
     border-color: rgb(255, 0, 171);
     background-color: rgb(50, 175, 183, 0.6);
     background-size: cover;
-    color:white
 }
 
 * {
@@ -303,7 +314,7 @@ a:visited {
     font-family: Stylish, Trebuchet MS;
     font-size: 40px;
     text-align: justify;
-    color: rgb(62,68,63); 
+    color: rgb(41,41,41); 
 }
 
 #unit1_1 {
